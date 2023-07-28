@@ -77,17 +77,6 @@ function Navbar(props) {
                     <div className='c-nav'>
                         <div><img src={logoo} alt="Logo img" /></div>
                         <div className='logo'>
-                            {/* <div className='dostavki'> 
-                                <p className='pop'>
-                                    Доставка пасты <span style={{ color: '#F7D22D' }}>Москва</span>
-                                </p>
-                                <div>
-                                    <img src={img} alt="img" />
-                                    <p>Яндекс еда-4.8</p>
-                                    <i style={{ padding: '0 15px 0 6px' }} className="fa-solid fa-star"></i>
-                                    <p>Время доставки-от 31 мин</p>
-                                </div>
-                            </div> */}
                             <div className='zakaz'>
                                 <button className='bnt' onClick={registr}>Заказать звонок</button>
                                 <p>8 916 234 06 58</p>
