@@ -44,6 +44,7 @@
 }
 .big .container .nav .c-nav {
   display: flex;
+  justify-content: space-between !important;
 }
 @media (max-width: 1050px) {
   .big .container .nav .c-nav {
@@ -55,52 +56,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 @media (max-width: 1050px) {
   .big .container .nav .c-nav .logo {
     display: none;
   }
 }
-.big .container .nav .c-nav .logo .dostavki {
-  margin-left: 60px;
-}
-@media (max-width: 1050px) {
-  .big .container .nav .c-nav .logo .dostavki {
-    margin-left: 40px;
-  }
-}
-.big .container .nav .c-nav .logo .dostavki .pop {
-  font-size: 20px;
-  padding-bottom: 5px;
-  font-weight: bold;
-}
-.big .container .nav .c-nav .logo .dostavki div {
-  display: flex;
-  align-items: center;
-}
-.big .container .nav .c-nav .logo .dostavki div p,
-.big .container .nav .c-nav .logo .dostavki div img {
-  font-size: 18px !important;
-}
-.big .container .nav .c-nav .logo .dostavki div p {
-  padding-left: 5px;
-}
-.big .container .nav .c-nav .logo .dostavki div i {
-  color: #F7D22D;
-  font-size: 14px;
-}
 .big .container .nav .c-nav .logo .zakaz {
   display: flex;
   justify-content: end;
   align-items: center;
-  width: 42%;
-}
-@media (max-width: 1060px) {
-  .big .container .nav .c-nav .logo .zakaz {
-    width: 40%;
-    margin-right: 10px;
-  }
 }
 .big .container .nav .c-nav .logo .zakaz .bnt {
   padding: 13px 25px;
