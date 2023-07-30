@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 // import Swiper from 'swiper';
 import Swiper from '../Components/Swiper/Swiper';
-import novinki from '../Data.jsx';
+import novinki from '../data.js';
 // import pitsa from '../Data.jsx';
 
 
@@ -29,7 +29,7 @@ function Novinki(props) {
                 <div onClick={() => props.setDetail(novi)} className="card" >
                   <img src={novi.img} alt="Error" />
                   <div className="item">
-                    <p>{novi.name}</p>
+                    <h2>{novi.name}</h2>
                     <p className='novprice'>{novi.price} ₽</p>
                   </div>
                 </div>
