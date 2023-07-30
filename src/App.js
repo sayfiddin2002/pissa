@@ -16,7 +16,7 @@ import {
 
 // import ZavrtrkDetail from './pages/zavtrk/ZavrtrkDetail';
 // import Footer from './pages/Footer';
-// import Novinki from './Components/Novinki';
+import Novinki from './Components/Novinki';
 // import OpenNovinki from './Components/OpenNovinki';
 
 
@@ -112,40 +112,40 @@ function App() {
         </div>
 
           <Routes>
-            {/* <Route path='/' element={<Novinki novinki={novinki} addToCart={addToCart} setDetail={setDetail} pitsa={pitsa} setPissa={setPissa} />} />
-            <Route path='/novinki/:id' element={<OpenNovinki novinki={novinki} addToCart={addToCart} detail={detail} />} />
-            <Route path='/pitsa/:id' element={<OpenPitsa addToCart={addToCart} pissa={pissa} pitsa={pitsa} />} />
+            <Route path='/' element={<Novinki  addToCart={addToCart} setDetail={setDetail}  setPissa={setPissa} />} />
+            {/* <Route path='/novinki/:id' element={<OpenNovinki novinki={novinki} addToCart={addToCart} detail={detail} />} /> */}
+            {/* <Route path='/pitsa/:id' element={<OpenPitsa addToCart={addToCart} pissa={pissa} pitsa={pitsa} />} /> */}
 
 
-            <Route path='/zavtrks' element={<Zavtrk addToCart={addToCart} zavtrks={zavtrks} setDetailed={setDetailed} />} />
-            <Route path='/zavtrks/:id' element={<ZavrtrkDetail addToCart={addToCart} zavtrks={zavtrks} detailed={detailed} />} />
+            {/* <Route path='/zavtrks' element={<Zavtrk addToCart={addToCart} zavtrks={zavtrks} setDetailed={setDetailed} />} /> */}
+            {/* <Route path='/zavtrks/:id' element={<ZavrtrkDetail addToCart={addToCart} zavtrks={zavtrks} detailed={detailed} />} /> */}
 
-            <Route path='/pitsa' element={<Pitsa addToCart={addToCart} pitsa={pitsa} setPissa={setPissa} />} />
+            {/* <Route path='/pitsa' element={<Pitsa addToCart={addToCart} pitsa={pitsa} setPissa={setPissa} />} /> */}
 
-            <Route path='/pitsa/:id' element={<PitsaDetail addToCart={addToCart} pissa={pissa} pitsa={pitsa} />} />
+            {/* <Route path='/pitsa/:id' element={<PitsaDetail addToCart={addToCart} pissa={pissa} pitsa={pitsa} />} /> */}
 
-            <Route path='/pasta' element={<Pasta addToCart={addToCart} pasta={pasta} setPast={setPast} />} />
-            <Route path='/pasta/:id' element={<PastaDetailed addToCart={addToCart} pasta={pasta} past={past} />} />
+            {/* <Route path='/pasta' element={<Pasta addToCart={addToCart} pasta={pasta} setPast={setPast} />} /> */}
+            {/* <Route path='/pasta/:id' element={<PastaDetailed addToCart={addToCart} pasta={pasta} past={past} />} /> */}
 
-            <Route path='/ravioli' element={<Ravioli addToCart={addToCart} setRavi={setRavi} ravioli={ravioli} />} />
-            <Route path='/ravioli/:id' element={<Raviolidetail addToCart={addToCart} ravi={ravi} ravioli={ravioli} />} />
+            {/* <Route path='/ravioli' element={<Ravioli addToCart={addToCart} setRavi={setRavi} ravioli={ravioli} />} /> */}
+            {/* <Route path='/ravioli/:id' element={<Raviolidetail addToCart={addToCart} ravi={ravi} ravioli={ravioli} />} /> */}
 
-            <Route path='/supi' element={<Supi addToCart={addToCart} setSup={setSup} supi={supi} />} />
-            <Route path='/supi/:id' element={<SupiDetail addToCart={addToCart} supi={supi} sup={sup} />} />
+            {/* <Route path='/supi' element={<Supi addToCart={addToCart} setSup={setSup} supi={supi} />} /> */}
+            {/* <Route path='/supi/:id' element={<SupiDetail addToCart={addToCart} supi={supi} sup={sup} />} /> */}
 
-            <Route path='/zakiska' element={<Zakiska addToCart={addToCart} setZaks={setZaks} zakus={zakus} />} />
-            <Route path='/zakiska/:id' element={<ZakiskaDetail addToCart={addToCart} zaks={zaks} zakus={zakus} />} />
+            {/* <Route path='/zakiska' element={<Zakiska addToCart={addToCart} setZaks={setZaks} zakus={zakus} />} /> */}
+            {/* <Route path='/zakiska/:id' element={<ZakiskaDetail addToCart={addToCart} zaks={zaks} zakus={zakus} />} /> */}
 
-            <Route path='/salat' element={<Salat addToCart={addToCart} setAlivya={setAlivya} salat={salat} />} />
-            <Route path='/salat/:id' element={<SalatDetail alivya={alivya} addToCart={addToCart} salat={salat} />} />
+            {/* <Route path='/salat' element={<Salat addToCart={addToCart} setAlivya={setAlivya} salat={salat} />} /> */}
+            {/* <Route path='/salat/:id' element={<SalatDetail alivya={alivya} addToCart={addToCart} salat={salat} />} /> */}
 
-            <Route path='/suv' element={<Napitki addToCart={addToCart} suv={suv} setNapitki={setNapitki} />} />
-            <Route path='/suv/:id' element={<NapitkiDetail addToCart={addToCart} suv={suv} napitki={napitki} />} />
+            {/* <Route path='/suv' element={<Napitki addToCart={addToCart} suv={suv} setNapitki={setNapitki} />} /> */}
+            {/* <Route path='/suv/:id' element={<NapitkiDetail addToCart={addToCart} suv={suv} napitki={napitki} />} /> */}
 
-            <Route path='/kontact' element={<Kontact />} />
-            <Route path='/card' element={<Card orders={orders} deleteOrderItem={deleteOrderItem} count={count} />} />
-            <Route path='/dastavka' element={<Daastavka />} />
-            <Route path='/po_card' element={<Po_card orders={orders} />} /> */}
+            {/* <Route path='/kontact' element={<Kontact />} /> */}
+            {/* <Route path='/card' element={<Card orders={orders} deleteOrderItem={deleteOrderItem} count={count} />} /> */}
+            {/* <Route path='/dastavka' element={<Daastavka />} /> */}
+            {/* <Route path='/po_card' element={<Po_card orders={orders} />} /> */}
 
           </Routes>
 
