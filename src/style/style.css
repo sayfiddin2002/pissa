@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Golos+Text:wght@400;500&family=Inter:wght@100;200;300;400;500&family=Lato:wght@100;300;400&family=Montserrat:ital,wght@0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,700;0,800;1,900&family=Sono:wght@200;300;400;500&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -377,12 +377,12 @@
   justify-content: space-between;
 }
 .big .container .nav .nav-footer .pols .rols .kor-foter .foter-header p:first-child {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.2rem;
 }
 .big .container .nav .nav-footer .pols .rols .kor-foter .foter-header p:last-child {
   color: #ffd000;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.4rem;
 }
 .big .container .nav .nav-footer .pols .rols .kor-foter .kor_foter {
@@ -452,7 +452,7 @@
 }
 .big .container .nav .nav-footer .clow #div .srov .wrapper p:last-child {
   font-size: 50px;
-  font-weight: 900;
+  font-weight: 700;
   color: #F7D22D;
   cursor: pointer;
 }
@@ -559,7 +559,7 @@
   padding: 0 10px 10px 10px;
 }
 .zavtrk_list #card .card .card-body h2 {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.7rem;
   color: #797979;
 }
@@ -574,7 +574,7 @@
 }
 .zavtrk_list #card .card .card-footer p {
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 700;
 }
 .zavtrk_list #card .card .card-footer button {
   font-size: 20px;
@@ -587,7 +587,7 @@
 
 .brot {
   position: relative;
-  padding: 30px 0;
+  padding-top: 30px;
 }
 .brot .foter-item {
   max-width: 1130px;
@@ -634,7 +634,7 @@
 .brot .foter-item .container .left .item p {
   padding: 20px 0;
   font-size: 21px;
-  font-weight: 900;
+  font-weight: 700;
 }
 .brot .foter-item .container .left .item p:first-child {
   padding: 20px 60px 0 0;
@@ -642,7 +642,7 @@
 .brot .foter-item .container .left .item_p {
   padding: 10px 0;
   font-size: 21px;
-  font-weight: 900;
+  font-weight: 700;
 }
 .brot .foter-item .container .left #body {
   width: 630px;
@@ -672,8 +672,10 @@
     justify-content: space-between;
   }
 }
-.brot .foter-item .container .left #body #insta p {
+.brot .foter-item .container .left #body #insta a {
+  text-decoration: none;
   font-size: 20px;
+  color: #696F7A;
 }
 .brot .foter-item .container .left #body #vkon {
   color: #696F7A;
@@ -683,7 +685,7 @@
 }
 .brot .foter-item .container .left #body p {
   color: #696F7A;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 21px;
 }
 .brot .foter-item .container .right {
@@ -696,7 +698,7 @@
 }
 .brot .foter-item .container .right .ostalas {
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 700;
   padding: 25px 0 80px 0;
 }
 @media (max-width: 1050px) {
@@ -723,7 +725,7 @@
     transform: translateY(90px);
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .brot .foter-item .container .right #but {
     width: 100%;
   }
@@ -736,7 +738,7 @@
 .brot .foter-item .container .right .right_footer #sakkiz {
   margin-left: 80px;
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 700;
   padding: 40px 0 10px 0;
   color: #F7D22D;
 }
@@ -744,6 +746,11 @@
   .brot .foter-item .container .right .right_footer #sakkiz {
     margin-left: 0;
     padding: 0 0 30px 0;
+  }
+}
+@media (max-width: 500px) {
+  .brot .foter-item .container .right .right_footer #sakkiz {
+    text-align: center !important;
   }
 }
 .brot .foter-item .container .right .right_footer #zakasss {
@@ -763,8 +770,9 @@
 .brot .foter-item #bar {
   padding: 50px 0 0 0;
   font-size: 21px;
-  font-weight: 900;
+  font-weight: 700;
   color: #696F7A;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .brot .foter-item #bar {
@@ -808,7 +816,7 @@
 }
 .brot .clow #div .srov .wrapper p:first-child {
   font-size: 40px;
-  font-weight: 900;
+  font-weight: 700;
 }
 @media (max-width: 650px) {
   .brot .clow #div .srov .wrapper p:first-child {
@@ -817,7 +825,7 @@
 }
 .brot .clow #div .srov .wrapper p:last-child {
   font-size: 50px;
-  font-weight: 900;
+  font-weight: 700;
   color: #F7D22D;
   cursor: pointer;
 }
@@ -1389,7 +1397,7 @@
 }
 .pas-foot .container .card .card-foter h3 {
   font-size: 26px;
-  font-weight: 900;
+  font-weight: 700;
   color: #797979 !important;
   padding-bottom: 10px;
 }
@@ -1405,7 +1413,7 @@
   width: 92%;
 }
 .pas-foot .container .card .card-foter .pas-footer p {
-  font-weight: 900;
+  font-weight: 700;
   color: #F7D22D;
   font-size: 1.3rem;
 }
@@ -1444,7 +1452,7 @@
 }
 .kon .contakt .container .contakt-footer h1 {
   color: #F7D22D;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 2.3rem;
 }
 .kon .contakt .container .contakt-footer h2 {
@@ -1762,7 +1770,7 @@
 }
 .v_korzinu .cozinu .card-footer .footer_wrapper .footer-header .summa p:last-child {
   font-size: 36px;
-  font-weight: 900;
+  font-weight: 700;
   color: #F7D22D;
 }
 @media (max-width: 500px) {
@@ -1927,7 +1935,7 @@
   }
 }
 .dastavke .container h1 {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 2.2rem;
   padding: 30px 0;
   color: #F7D22D;

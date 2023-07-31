@@ -17,6 +17,7 @@ import {
 // import ZavrtrkDetail from './pages/zavtrk/ZavrtrkDetail';
 // import Footer from './pages/Footer';
 import Novinki from './Components/Novinki';
+import Footer from './pages/Footer';
 // import OpenNovinki from './Components/OpenNovinki';
 
 
