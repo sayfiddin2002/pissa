@@ -971,6 +971,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 0 10px;
+            list-style: none !important;
 
             .card {
                 position: relative;
@@ -982,6 +983,8 @@
                 width: 260px;
                 height: 80px;
                 margin: 10px 0;
+                list-style: none !important;
+
 
                 @media(max-width:1050px) {
                     margin: 10px 10px 10px 0;
@@ -1223,6 +1226,7 @@
                 width: 320px;
                 height: 490px;
             }
+
             .card {
                 border-radius: 20px;
                 display: flex;
@@ -1303,6 +1307,7 @@
 
                         .item {
                             transform: translateY(25px);
+
                             p:first-child {
                                 font-size: 1.4rem;
                                 font-weight: 700;
@@ -1646,6 +1651,7 @@
             }
         }
     }
+
     .cozinu {
         max-width: 800px;
         margin: 0 auto;

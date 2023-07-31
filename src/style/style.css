@@ -906,6 +906,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
+  list-style: none !important;
 }
 .novinki .container .wrapper .card {
   position: relative;
@@ -917,6 +918,7 @@
   width: 260px;
   height: 80px;
   margin: 10px 0;
+  list-style: none !important;
 }
 @media (max-width: 1050px) {
   .novinki .container .wrapper .card {
