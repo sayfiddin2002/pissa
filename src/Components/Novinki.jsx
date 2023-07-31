@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-// import Swiper from 'swiper';
 import Swiper from '../Components/Swiper/Swiper';
-import novinki from '../data.js';
-// import pitsa from '../Data.jsx';
+import {novinki, pitsa} from '../data.js';
+
 
 
 
@@ -39,10 +38,10 @@ function Novinki(props) {
         </div>
       </div>
 
-      {/* <div className='pas-foot'>
+      <div className='pas-foot'>
         <h1>Пицца</h1>
         <div className='container'>
-          {props.pitsa.map(p => {
+          {pitsa.map(p => {
             return (
               <div className="card" key={p.id}>
                 <NavLink to={`/pitsa/${p.id}`}>
@@ -62,7 +61,7 @@ function Novinki(props) {
             )
           })}
         </div>
-      </div> */}
+      </div>
 
       {/* <div className="opplata">
         <h1>Оплата и доставка</h1>

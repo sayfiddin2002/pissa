@@ -931,7 +931,7 @@
 .novinki .container .wrapper .card .novprice {
   color: #F7D22D;
 }
-.novinki .container .wrapper .card p {
+.novinki .container .wrapper .card h2 {
   font-size: 1.1rem;
   font-weight: 700;
   color: black;
