@@ -312,6 +312,8 @@
                                         font-size: 1.3rem;
                                         background-color: #696f7a2a;
                                         display: flex;
+                                        // grid-template-columns: 1fr 15px 1fr;
+                                        width: 110px;
                                         justify-content: center;
                                         align-items: center;
 
@@ -329,6 +331,8 @@
                                         }
 
                                         .count {
+                                            text-align: center;
+                                            width: 70px;
                                             font-weight: 700;
                                             font-size: 1.2rem !important;
 
@@ -336,7 +340,6 @@
 
                                         .plus {
                                             cursor: pointer;
-
                                         }
                                     }
 

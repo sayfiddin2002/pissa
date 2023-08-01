@@ -314,6 +314,7 @@
   font-size: 1.3rem;
   background-color: rgba(105, 111, 122, 0.1647058824);
   display: flex;
+  width: 110px;
   justify-content: center;
   align-items: center;
 }
@@ -330,6 +331,8 @@
   cursor: pointer;
 }
 .big .container .nav .nav-footer .pols .rols .korzina .tittle .k-footer .four .count {
+  text-align: center;
+  width: 70px;
   font-weight: 700;
   font-size: 1.2rem !important;
 }
