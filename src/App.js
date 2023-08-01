@@ -19,6 +19,7 @@ import {
 import Novinki from './Components/Novinki';
 import Footer from './pages/Footer';
 import Zavtrk from './pages/zavtrk/zavtrk';
+import OpenNovinki from './Components/OpenNovinki';
 // import OpenNovinki from './Components/OpenNovinki';
 
 
@@ -115,7 +116,7 @@ function App() {
 
           <Routes>
             <Route path='/' element={<Novinki  addToCart={addToCart} setDetail={setDetail}  setPissa={setPissa} />} />
-            {/* <Route path='/novinki/:id' element={<OpenNovinki novinki={novinki} addToCart={addToCart} detail={detail} />} /> */}
+            <Route path='/novinki/:id' element={<OpenNovinki  addToCart={addToCart} detail={detail} />} />
             {/* <Route path='/pitsa/:id' element={<OpenPitsa addToCart={addToCart} pissa={pissa} pitsa={pitsa} />} /> */}
 
 
