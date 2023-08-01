@@ -18,6 +18,7 @@ import {
 // import Footer from './pages/Footer';
 import Novinki from './Components/Novinki';
 import Footer from './pages/Footer';
+import Zavtrk from './pages/zavtrk/zavtrk';
 // import OpenNovinki from './Components/OpenNovinki';
 
 
@@ -49,7 +50,7 @@ function App() {
 
 
   
-  // const [detailed, setDetailed] = useState(null);
+  const [detailed, setDetailed] = useState(null);
 
  
 
@@ -118,7 +119,7 @@ function App() {
             {/* <Route path='/pitsa/:id' element={<OpenPitsa addToCart={addToCart} pissa={pissa} pitsa={pitsa} />} /> */}
 
 
-            {/* <Route path='/zavtrks' element={<Zavtrk addToCart={addToCart} zavtrks={zavtrks} setDetailed={setDetailed} />} /> */}
+            <Route path='/zavtrks' element={<Zavtrk addToCart={addToCart}  setDetailed={setDetailed} />} />
             {/* <Route path='/zavtrks/:id' element={<ZavrtrkDetail addToCart={addToCart} zavtrks={zavtrks} detailed={detailed} />} /> */}
 
             {/* <Route path='/pitsa' element={<Pitsa addToCart={addToCart} pitsa={pitsa} setPissa={setPissa} />} /> */}
