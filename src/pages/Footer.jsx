@@ -25,7 +25,7 @@ function Footer() {
                         <div id='body'>
                             <div id="insta">
                                 <a href="">Instagram</a>
-                                <a href="">Telegram</a>
+                                <a href="https://t.me/sayfiddin2002" target='_blank'>Telegram</a>
                                 <a href="">Вконтакте</a>
                             </div>
                             <div id="vkon">
