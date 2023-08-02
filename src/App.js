@@ -20,6 +20,7 @@ import Novinki from './Components/Novinki';
 import Footer from './pages/Footer';
 import Zavtrk from './pages/zavtrk/Zavtrk';
 import OpenNovinki from './Components/OpenNovinki';
+import Pitsa from './pages/pitsa/Pitsa';
 // import OpenNovinki from './Components/OpenNovinki';
 
 
@@ -123,7 +124,7 @@ function App() {
             <Route path='/zavtrks' element={<Zavtrk addToCart={addToCart}  setDetailed={setDetailed} />} />
             <Route path='/zavtrks/:id' element={<ZavtrkDetail addToCart={addToCart}  detailed={detailed} />} />
 
-            {/* <Route path='/pitsa' element={<Pitsa addToCart={addToCart} pitsa={pitsa} setPissa={setPissa} />} /> */}
+            <Route path='/pitsa' element={<Pitsa addToCart={addToCart}  setPissa={setPissa} />} />
 
             {/* <Route path='/pitsa/:id' element={<PitsaDetail addToCart={addToCart} pissa={pissa} pitsa={pitsa} />} /> */}
 
