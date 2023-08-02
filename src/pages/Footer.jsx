@@ -24,7 +24,7 @@ function Footer() {
                         <p className='item_p'>Мы в соцсетях</p>
                         <div id='body'>
                             <div id="insta">
-                                <a href="">Instagram</a>
+                                <a href="https://www.instagram.com/sayfidd1n_2002/" target='_blank'>Instagram</a>
                                 <a href="https://t.me/sayfiddin2002" target='_blank'>Telegram</a>
                                 <a href="">Вконтакте</a>
                             </div>
