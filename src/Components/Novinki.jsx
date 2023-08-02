@@ -68,19 +68,19 @@ function Novinki(props) {
         <div className="container">
           <div className="item">
             <img src={oplata1} alt="" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p>У нас вкусная пицца и еда приготовлена</p>
           </div>
           <div className="item">
             <img src={oplata2} alt="" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p>Пицца доставляется по договору</p>
           </div>
           <div className="item">
             <img src={oplata3} alt="" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p>Заказы принимаются без отмены</p>
           </div>
           <div className="item">
             <img src={oplata4} alt="" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p>Заказы доставляются точно в срок</p>
           </div>
         </div>
       </div>
