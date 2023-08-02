@@ -13,7 +13,7 @@ function OpenNovinki(props) {
                 <p>{props.detail.name}</p>
                 <p>{props.detail.description}</p>
               </div>
-              <NavLink to={'/'}>
+              <NavLink className='close_times' to={'/'}>
                 <div className="close">
                   <p>&times;</p>
                 </div>

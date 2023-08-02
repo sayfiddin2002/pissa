@@ -24,7 +24,7 @@ function Novinki(props) {
         <div className="wrapper">
           {novinki.map(novi => {
             return (
-              <NavLink key={novi.id} to={`/novinki/${novi.id}`}>
+              <NavLink className="navlink" key={novi.id} to={`/novinki/${novi.id}`}>
                 <div onClick={() => props.setDetail(novi)} className="card" >
                   <img src={novi.img} alt="Error" />
                   <div className="item">

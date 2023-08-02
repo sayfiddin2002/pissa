@@ -919,7 +919,10 @@
   padding: 0 10px;
   list-style: none !important;
 }
-.novinki .container .wrapper .card {
+.novinki .container .wrapper .navlink {
+  text-decoration: none !important;
+}
+.novinki .container .wrapper .navlink .card {
   position: relative;
   box-shadow: 0 0 15px rgb(214, 214, 214);
   display: flex;
@@ -932,19 +935,19 @@
   list-style: none !important;
 }
 @media (max-width: 1050px) {
-  .novinki .container .wrapper .card {
+  .novinki .container .wrapper .navlink .card {
     margin: 10px 10px 10px 0;
   }
 }
-.novinki .container .wrapper .card img {
+.novinki .container .wrapper .navlink .card img {
   width: 55px;
   height: 55px;
   margin-right: 20px;
 }
-.novinki .container .wrapper .card .novprice {
+.novinki .container .wrapper .navlink .card .novprice {
   color: #F7D22D;
 }
-.novinki .container .wrapper .card h2 {
+.novinki .container .wrapper .navlink .card h2 {
   font-size: 1.1rem;
   font-weight: 700;
   color: black;
