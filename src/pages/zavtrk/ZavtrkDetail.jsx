@@ -15,7 +15,7 @@ function ZavrtrkDetail(props) {
                   <p>{props.detailed.description}</p>
                 </div>
                 <div className='time'>
-                  <Link to='/zavtrks'>
+                  <Link to='/zavtrks' className='close_pitsadetail'>
                     <span className='times'>&times;</span>
                   </Link>
                 </div>
