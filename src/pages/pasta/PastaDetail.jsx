@@ -1,27 +1,27 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function ZavrtrkDetail(props) {
+function PastaDetailed(props) {
   return (
     <div className="detailed">
       <div className="detail">
         <div className="container">
           <div className="card">
-            <img src={props.detailed?.img} alt="" />
+            <img src={props.past.img} alt="" />
             <div className='zabt'>
               <div className='wrapper'>
                 <div className='item'>
-                  <p>{props.detailed.name}</p>
-                  <p>{props.detailed.description}</p>
+                  <p>{props.past.name}</p>
+                  <p>{props.past.description}</p>
                 </div>
                 <div className='time'>
-                  <Link to='/zavtrks' className='close_pitsadetail'>
+                  <Link to='/pasta'>
                     <span className='times'>&times;</span>
                   </Link>
                 </div>
               </div>
-              <Link to='/zavtrks'>
-                <button className='clic' onClick={() => props.addToCart(props.detailed)}>Добавить в корзину {props.detailed.price} ₽</button>
+              <Link to='/pasta'>
+                <button className='clic' onClick={() => props.addToCart(props.past)}>Добавить в корзину {props.past.price} ₽</button>
               </Link>
             </div>
           </div>
@@ -31,4 +31,4 @@ function ZavrtrkDetail(props) {
   )
 }
 
-export default ZavrtrkDetail
+export default PastaDetailed
