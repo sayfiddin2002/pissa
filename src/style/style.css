@@ -1290,19 +1290,22 @@
     font-size: 0.8rem;
   }
 }
-.detailed .detail .container .card .zabt .wrapper .time .times {
+.detailed .detail .container .card .zabt .wrapper .time .close_pitsadetail {
+  text-decoration: none !important;
+}
+.detailed .detail .container .card .zabt .wrapper .time .close_pitsadetail .times {
   font-size: 4rem;
   color: #F7D22D;
   cursor: pointer;
 }
 @media (max-width: 700px) {
-  .detailed .detail .container .card .zabt .wrapper .time .times {
+  .detailed .detail .container .card .zabt .wrapper .time .close_pitsadetail .times {
     position: absolute;
     bottom: 500px;
   }
 }
 @media (max-width: 500px) {
-  .detailed .detail .container .card .zabt .wrapper .time .times {
+  .detailed .detail .container .card .zabt .wrapper .time .close_pitsadetail .times {
     position: fixed;
     bottom: 495px;
     transform: translateX(-30px);

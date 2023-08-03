@@ -7,7 +7,7 @@ function PitsaDetail(props) {
       <div className="detail">
         <div className="container">
           <div className="card">
-            <img src={props.pissa.img} alt="" />
+            <img src={props.pissa?.img} alt="" />
             <div className='zabt'>
               <div className='wrapper'>
                 <div className='item'>
@@ -15,7 +15,7 @@ function PitsaDetail(props) {
                   <p>{props.pissa.description}</p>
                 </div>
                 <div className='time'>
-                  <Link to='/pitsa'>
+                  <Link to='/pitsa' className='close_pitsadetail'>
                     <span className='times'>&times;</span>
                   </Link>
                 </div>

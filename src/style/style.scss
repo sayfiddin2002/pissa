@@ -1169,6 +1169,7 @@
 
                     .close_times {
                         text-decoration: none !important;
+
                         .close {
                             p {
                                 font-size: 4rem;
@@ -1355,21 +1356,25 @@
                         }
 
                         .time {
-                            .times {
-                                font-size: 4rem;
-                                color: #F7D22D;
-                                cursor: pointer;
+                            .close_pitsadetail {
+                                text-decoration: none !important;
+                                .times {
+                                    font-size: 4rem;
+                                    color: #F7D22D;
+                                    cursor: pointer;
 
-                                @media(max-width: 700px) {
-                                    position: absolute;
-                                    bottom: 500px;
+                                    @media(max-width: 700px) {
+                                        position: absolute;
+                                        bottom: 500px;
+                                    }
+
+                                    @media(max-width:500px) {
+                                        position: fixed;
+                                        bottom: 495px;
+                                        transform: translateX(-30px);
+                                    }
                                 }
 
-                                @media(max-width:500px) {
-                                    position: fixed;
-                                    bottom: 495px;
-                                    transform: translateX(-30px);
-                                }
                             }
                         }
                     }
