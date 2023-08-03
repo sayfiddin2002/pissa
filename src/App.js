@@ -21,6 +21,7 @@ import Footer from './pages/Footer';
 import Zavtrk from './pages/zavtrk/Zavtrk';
 import OpenNovinki from './Components/OpenNovinki';
 import Pitsa from './pages/pitsa/Pitsa';
+import PitsaDetail from './pages/pitsa/PitsaDetail';
 // import OpenNovinki from './Components/OpenNovinki';
 
 
@@ -126,7 +127,7 @@ function App() {
 
             <Route path='/pitsa' element={<Pitsa addToCart={addToCart}  setPissa={setPissa} />} />
 
-            {/* <Route path='/pitsa/:id' element={<PitsaDetail addToCart={addToCart} pissa={pissa} pitsa={pitsa} />} /> */}
+            <Route path='/pitsa/:id' element={<PitsaDetail addToCart={addToCart} pissa={pissa}  />} />
 
             {/* <Route path='/pasta' element={<Pasta addToCart={addToCart} pasta={pasta} setPast={setPast} />} /> */}
             {/* <Route path='/pasta/:id' element={<PastaDetailed addToCart={addToCart} pasta={pasta} past={past} />} /> */}
