@@ -15,7 +15,7 @@ function PastaDetailed(props) {
                   <p>{props.past.description}</p>
                 </div>
                 <div className='time'>
-                  <Link to='/pasta'>
+                  <Link to='/pasta' className='close_pitsadetail'>
                     <span className='times'>&times;</span>
                   </Link>
                 </div>
