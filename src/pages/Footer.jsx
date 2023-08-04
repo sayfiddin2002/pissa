@@ -1,6 +1,13 @@
 import React from 'react';
 import { useRef } from 'react';
 import logo from '../img/logo2.png';
+import viber from './viber.png';
+import simple from './simple.png';
+import twitter from './twitter.png';
+import telegram from './telegram.png';
+import facebook from './facebook.png';
+import jira from './jira.png';
+
 
 function Footer() {
     const openRegistr = useRef();
@@ -36,6 +43,11 @@ function Footer() {
                     </div>
                     <div className="right">
                         <p className='ostalas'>ОСТАЛИСЬ ВОПРОСЫ? А МЫ ВСЕГДА НА СВЯЗИ:</p>
+                        <div className='virtual-wrap'>
+                            <div className="vwrap">
+                                
+                            </div>
+                        </div>
                         <button id='but' onClick={registr}>Написать нам</button>
                         <div className='right_footer'>
                             <p id='sakkiz'>8 916 234 06 58</p>
@@ -46,7 +58,7 @@ function Footer() {
                 <p id='bar'>Fibo Pasta Bar Все права защищены © 2023</p>
             </div>
 
-            
+
             <div ref={openRegistr} className="clow">
                 <div id='div'>
                     <div className="srov">
