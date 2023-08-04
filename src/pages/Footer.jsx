@@ -1,12 +1,12 @@
 import React from 'react';
 import { useRef } from 'react';
 import logo from '../img/logo2.png';
-import viber from './viber.png';
-import simple from './simple.png';
-import twitter from './twitter.png';
-import telegram from './telegram.png';
-import facebook from './facebook.png';
-import jira from './jira.png';
+import viber from '../img/viber.png';
+import simple from '../img/simple.png';
+import twitter from '../img//twitter.png';
+import telegram from '../img//telegram.png';
+import facebook from '../img/facebook.png';
+import jira from '../img/jira.png';
 
 
 function Footer() {
@@ -45,7 +45,7 @@ function Footer() {
                         <p className='ostalas'>ОСТАЛИСЬ ВОПРОСЫ? А МЫ ВСЕГДА НА СВЯЗИ:</p>
                         <div className='virtual-wrap'>
                             <div className="vwrap">
-                                
+                                <img src={viber} alt="viber logo img" />
                             </div>
                         </div>
                         <button id='but' onClick={registr}>Написать нам</button>
