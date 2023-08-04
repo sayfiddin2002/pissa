@@ -15,7 +15,7 @@ function Raviolidetail(props) {
                   <p>{props.ravi.description}</p>
                 </div>
                 <div className='time'>
-                  <Link to='/ravioli'>
+                  <Link to='/ravioli' className='close_pitsadetail'>
                     <span className='times'>&times;</span>
                   </Link>
                 </div>
