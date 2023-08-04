@@ -45,6 +45,8 @@ function Footer() {
                 </div>
                 <p id='bar'>Fibo Pasta Bar Все права защищены © 2023</p>
             </div>
+
+            
             <div ref={openRegistr} className="clow">
                 <div id='div'>
                     <div className="srov">
