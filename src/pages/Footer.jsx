@@ -47,8 +47,23 @@ function Footer() {
                             <div className="vwrap">
                                 <img src={viber} alt="viber logo img" />
                             </div>
+                            <div className="vwrap">
+                                <img src={simple} alt="simple logo img" />
+                            </div>
+                            <div className="vwrap">
+                                <img src={twitter} alt="twitter logo img" />
+                            </div>
+                            <div className="vwrap">
+                                <img src={telegram} alt="telegram logo img" />
+                            </div>
+                            <div className="vwrap">
+                                <img src={facebook} alt="facebook logo img" />
+                            </div>
+                            <div className="vwrap">
+                                <img src={jira} alt="jira logo img" />
+                            </div>
+                            <button id='but' onClick={registr}>Написать нам</button>
                         </div>
-                        <button id='but' onClick={registr}>Написать нам</button>
                         <div className='right_footer'>
                             <p id='sakkiz'>8 916 234 06 58</p>
                             <button id='zakasss' onClick={registr}>Заказать звонок</button>

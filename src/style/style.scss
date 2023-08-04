@@ -761,23 +761,43 @@
                     }
                 }
 
-                #but {
-                    font-size: 15px;
-                    padding: 10px 47px;
-                    border-radius: 13px;
-                    margin-left: 80px;
-                    border: 2px solid #98c5f3;
-                    cursor: pointer;
-
-                    @media(max-width: 1050px) {
-                        margin-left: 0;
-                        transform: translateY(90px);
+                .virtual-wrap {
+                    // background-color: aqua;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    gap: 15px;
+                    .vwrap {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        // width: 101px;
+                        height: 52px;
+                        border-radius: 13px;
+                        border: 2px solid #E3ECF5 ;
                     }
 
-                    @media(max-width: 500px) {
-                        width: 100%;
+                    #but {
+                        grid-column: span 2 / span 2;
+                        border: 2px solid #E3ECF5 ;
+                        border-radius: 13px;
+                        // font-size: 15px;
+                        // padding: 10px 47px;
+                        // border-radius: 13px;
+                        // margin-left: 80px;
+                        // border: 2px solid #98c5f3;
+                        // cursor: pointer;
+    
+                        // @media(max-width: 1050px) {
+                        //     margin-left: 0;
+                        //     transform: translateY(90px);
+                        // }
+    
+                        // @media(max-width: 500px) {
+                        //     width: 100%;
+                        // }
                     }
                 }
+
 
                 .right_footer {
                     @media(max-width: 1050px) {
