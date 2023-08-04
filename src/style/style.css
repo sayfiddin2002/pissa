@@ -603,15 +603,13 @@
   }
 }
 .brot .foter-item .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-@media (max-width: 1050px) {
+@media (max-width: 800px) {
   .brot .foter-item .container {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
-}
-.brot .foter-item .container .left {
-  width: 55%;
 }
 @media (max-width: 1050px) {
   .brot .foter-item .container .left {
@@ -628,6 +626,7 @@
 }
 .brot .foter-item .container .left .item {
   display: flex;
+  justify-content: space-between;
 }
 @media (max-width: 1050px) {
   .brot .foter-item .container .left .item {
@@ -639,8 +638,10 @@
   font-size: 21px;
   font-weight: 700;
 }
-.brot .foter-item .container .left .item p:first-child {
-  padding: 20px 60px 0 0;
+@media (max-width: 1050px) {
+  .brot .foter-item .container .left .item p {
+    padding: 10px 0;
+  }
 }
 .brot .foter-item .container .left .item_p {
   padding: 10px 0;
@@ -649,9 +650,6 @@
 }
 .brot .foter-item .container .left #body {
   width: 630px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 @media (max-width: 1050px) {
   .brot .foter-item .container .left #body {
@@ -662,18 +660,10 @@
 }
 .brot .foter-item .container .left #body #insta {
   color: #696F7A;
-  width: 300px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  margin-right: 30px;
-}
-@media (max-width: 1050px) {
-  .brot .foter-item .container .left #body #insta {
-    width: 100%;
-    margin: 10px 0;
-    display: flex;
-    justify-content: space-between;
-  }
+  margin-right: 40px;
 }
 .brot .foter-item .container .left #body #insta a {
   text-decoration: none;
@@ -735,10 +725,10 @@
 @media (max-width: 1050px) {
   .brot .foter-item .container .right .right_footer {
     display: flex;
+    align-items: center;
   }
 }
 .brot .foter-item .container .right .right_footer #sakkiz {
-  margin-left: 80px;
   font-size: 30px;
   font-weight: 700;
   padding: 40px 0 10px 0;
@@ -747,7 +737,7 @@
 @media (max-width: 1050px) {
   .brot .foter-item .container .right .right_footer #sakkiz {
     margin-left: 0;
-    padding: 0 0 30px 0;
+    padding: 0;
   }
 }
 @media (max-width: 500px) {
@@ -760,13 +750,11 @@
   border-radius: 15px;
   border: none;
   font-weight: 700;
-  margin-left: 80px;
   cursor: pointer;
 }
 @media (max-width: 1050px) {
   .brot .foter-item .container .right .right_footer #zakasss {
     padding: 0 !important;
-    display: none;
   }
 }
 .brot .foter-item #bar {

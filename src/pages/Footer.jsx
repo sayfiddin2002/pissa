@@ -35,10 +35,10 @@ function Footer() {
                                 <a href="https://t.me/sayfiddin2002" target='_blank'>Telegram</a>
                                 <a href="tel:+998941055799">Вконтакте</a>
                             </div>
-                            <div id="vkon">
+                            {/* <div id="vkon">
                                 <p>Москва ул. Проспект</p>
                                 <p>Вернадского 86В ( Парк Фудхол)</p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="right">
