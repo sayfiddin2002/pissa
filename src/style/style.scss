@@ -647,7 +647,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
 
-            @media(max-width: 800px) {
+            @media(max-width: 870px) {
                 grid-template-columns: 1fr;
             }
 
@@ -806,16 +806,18 @@
 
 
                 .right_footer {
-                    @media(max-width: 1050px) {
+                    // @media(max-width: 1050px) {
                         display: flex;
                         align-items: center;
-                    }
+                        justify-content: space-between;
+                        margin-top: 20px;
+                    // }
 
                     #sakkiz {
                         // margin-left: 80px;
                         font-size: 30px;
                         font-weight: 700;
-                        padding: 40px 0 10px 0;
+                        // padding: 40px 0 10px 0;
                         color: #F7D22D;
 
                         @media(max-width: 1050px) {
@@ -825,6 +827,7 @@
 
                         @media(max-width: 500px) {
                             text-align: center !important;
+                            font-size: 20px;
                         }
                     }
 
@@ -837,7 +840,7 @@
                         cursor: pointer;
 
                         @media(max-width: 1050px) {
-                            padding: 0 !important;
+                            padding: 10px 30px;
                             // display: none;
                         }
                     }
