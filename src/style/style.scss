@@ -215,7 +215,7 @@
                     }
 
                     .rols {
-                        width: 300px;
+                        width: 320px;
                         height: 350px;
                         overflow: auto;
                         background-color: white;
@@ -228,7 +228,7 @@
                         border-radius: 8px;
 
                         @media(max-width:500px) {
-                            width: 270px;
+                            width: 280px;
                         }
 
                         @media(min-width: 1051px) and (max-width:1115px) {
