@@ -15,7 +15,7 @@ function SupiDetail(props) {
                                     <p>{props.sup.description}</p>
                                 </div>
                                 <div className='time'>
-                                    <Link to='/supi'>
+                                    <Link to='/supi' className='close_pitsadetail'>
                                         <span className='times'>&times;</span>
                                     </Link>
                                 </div>
