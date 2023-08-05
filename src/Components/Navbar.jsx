@@ -135,7 +135,7 @@ function Navbar(props) {
                                                         <img src={order.img} alt="Error" />
                                                         <div className="tittle">
                                                             <div className='title_body'>
-                                                                <p className='krem'>{order.name}</p>
+                                                                <p className='krem'>{order.name.slice(0, 15)}...</p>
                                                                 <div className='circle' onClick={() => closeKorzinka(order)}>
                                                                     <p>&times;</p>
                                                                 </div>
