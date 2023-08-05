@@ -305,6 +305,7 @@
 .big .container .nav .nav-footer .pols .rols .korzina .tittle .k-footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   align-items: flex-end;
   margin-top: 10px;
 }
@@ -321,6 +322,7 @@
 @media (max-width: 500px) {
   .big .container .nav .nav-footer .pols .rols .korzina .tittle .k-footer .four {
     font-size: 1rem;
+    width: 80px;
   }
 }
 .big .container .nav .nav-footer .pols .rols .korzina .tittle .k-footer .four div {

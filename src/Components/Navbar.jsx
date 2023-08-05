@@ -162,7 +162,7 @@ function Navbar(props) {
 
                                         : <div className='no_date'>
                                             <p>No results</p>
-                                        </div>
+                                         </div>
                                     }
 
                                     {props.orders.length !== 0
