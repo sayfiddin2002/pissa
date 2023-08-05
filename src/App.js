@@ -15,9 +15,9 @@ import {
 
 
 import ZavtrkDetail from './pages/zavtrk/ZavtrkDetail';
-// import Footer from './pages/Footer';
+// import Footer from './Components/Footer.jsx';
 import Novinki from './Components/Novinki';
-import Footer from './pages/Footer';
+import Footer from './Components/Footer';
 import Zavtrk from './pages/zavtrk/Zavtrk';
 import OpenNovinki from './Components/OpenNovinki';
 import Pitsa from './pages/pitsa/Pitsa';
