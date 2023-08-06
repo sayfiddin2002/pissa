@@ -15,7 +15,7 @@ function ZakiskaDetail(props) {
                                     <p>{props.zaks?.description}</p>
                                 </div>
                                 <div className='time'>
-                                    <Link to='/zakiska'>
+                                    <Link to='/zakiska' className='close_pitsadetail'>
                                         <span className='times'>&times;</span>
                                     </Link>
                                 </div>
