@@ -6,12 +6,12 @@ function OpenNovinki(props) {
     <div id='openNovinkie'>
       <div className="novinkii">
         <div className="card">
-          <img src={props.detail.img} alt="" />
+          <img src={props.detail?.img} alt="" />
           <div className="item">
             <div className="wrap">
               <div className="text">
-                <p>{props.detail.name}</p>
-                <p>{props.detail.description}</p>
+                <p>{props.detail?.name}</p>
+                <p>{props.detail?.description}</p>
               </div>
               <NavLink className='close_times' to={'/'}>
                 <div className="close">
@@ -20,7 +20,7 @@ function OpenNovinki(props) {
               </NavLink>
             </div>
             <NavLink to={'/'}>
-              <button onClick={() => props.addToCart(props.detail)} className='nivonki_btn'>Добавить в корзину{props.detail.price} ₽</button>
+              <button onClick={() => props.addToCart(props.detail)} className='nivonki_btn'>Добавить в корзину{props.detail?.price} ₽</button>
             </NavLink>
           </div>
         </div>
