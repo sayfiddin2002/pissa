@@ -1,12 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { zakus } from '../../data'
 
 function Zakiska(props) {
     return (
         <div className='pas-foot'>
             <h1>Горячие закуски</h1>
             <div className="container">
-                {props.zakus.map(zak => {
+                {zakus.map(zak => {
                     return (
                         <div data-aos="fade-up" className="card" key={zak.id}>
                             <NavLink to={`/zakiska/${zak.id}`}>
