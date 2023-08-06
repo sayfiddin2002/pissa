@@ -11,8 +11,8 @@ function ZavrtrkDetail(props) {
             <div className='zabt'>
               <div className='wrapper'>
                 <div className='item'>
-                  <p>{props.detailed.name}</p>
-                  <p>{props.detailed.description}</p>
+                  <p>{props.detailed?.name}</p>
+                  <p>{props.detailed?.description}</p>
                 </div>
                 <div className='time'>
                   <Link to='/zavtrks' className='close_pitsadetail'>
@@ -21,7 +21,7 @@ function ZavrtrkDetail(props) {
                 </div>
               </div>
               <Link to='/zavtrks'>
-                <button className='clic' onClick={() => props.addToCart(props.detailed)}>Добавить в корзину {props.detailed.price} ₽</button>
+                <button className='clic' onClick={() => props.addToCart(props.detailed)}>Добавить в корзину {props.detailed?.price} ₽</button>
               </Link>
             </div>
           </div>

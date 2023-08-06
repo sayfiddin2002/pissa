@@ -7,12 +7,12 @@ function SupiDetail(props) {
             <div className="detail">
                 <div className="container">
                     <div className="card">
-                        <img src={props.sup.img} alt="Error" />
+                        <img src={props.sup?.img} alt="Error" />
                         <div className='zabt'>
                             <div className='wrapper'>
                                 <div className='item'>
-                                    <p>{props.sup.name}</p>
-                                    <p>{props.sup.description}</p>
+                                    <p>{props.sup?.name}</p>
+                                    <p>{props.sup?.description}</p>
                                 </div>
                                 <div className='time'>
                                     <Link to='/supi' className='close_pitsadetail'>
@@ -21,7 +21,7 @@ function SupiDetail(props) {
                                 </div>
                             </div>
                             <Link to='/supi'>
-                                <button className='clic' onClick={() => props.addToCart(props.sup)}>Добавить в корзину {props.sup.price} ₽</button>
+                                <button className='clic' onClick={() => props.addToCart(props.sup)}>Добавить в корзину {props.sup?.price} ₽</button>
                             </Link>
                         </div>
                     </div>

@@ -11,8 +11,8 @@ function PitsaDetail(props) {
             <div className='zabt'>
               <div className='wrapper'>
                 <div className='item'>
-                  <p>{props.pissa.name}</p>
-                  <p>{props.pissa.description}</p>
+                  <p>{props.pissa?.name}</p>
+                  <p>{props.pissa?.description}</p>
                 </div>
                 <div className='time'>
                   <Link to='/pitsa' className='close_pitsadetail'>
@@ -21,7 +21,7 @@ function PitsaDetail(props) {
                 </div>
               </div>
               <Link to='/pitsa'>
-                <button className='clic' onClick={() => props.addToCart(props.pissa)}>Добавить в корзину {props.pissa.price} ₽</button>
+                <button className='clic' onClick={() => props.addToCart(props.pissa)}>Добавить в корзину {props.pissa?.price} ₽</button>
               </Link>
             </div>
           </div>

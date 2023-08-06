@@ -11,8 +11,8 @@ function Raviolidetail(props) {
             <div className='zabt'>
               <div className='wrapper'>
                 <div className='item'>
-                  <p>{props.ravi.name}</p>
-                  <p>{props.ravi.description}</p>
+                  <p>{props.ravi?.name}</p>
+                  <p>{props.ravi?.description}</p>
                 </div>
                 <div className='time'>
                   <Link to='/ravioli' className='close_pitsadetail'>
@@ -21,7 +21,7 @@ function Raviolidetail(props) {
                 </div>
               </div>
               <Link to='/ravioli'>
-                <button className='clic' onClick={() => props.addToCart(props.ravi)}>Добавить в корзину {props.ravi.price} ₽</button>
+                <button className='clic' onClick={() => props.addToCart(props.ravi)}>Добавить в корзину {props.ravi?.price} ₽</button>
               </Link>
             </div>
           </div>
