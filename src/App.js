@@ -29,6 +29,7 @@ import Raviolidetail from './pages/ravioli/RavioliDetail';
 import Supi from './pages/supi/Supi.jsx';
 import SupiDetail from './pages/supi/SupiDetail';
 import Zakiska from './pages/zakuski/Zakuski';
+import ZakiskaDetail from './pages/zakuski/ZakuskiDetail';
 // import OpenNovinki from './Components/OpenNovinki';
 
 
@@ -146,7 +147,7 @@ function App() {
             <Route path='/supi/:id' element={<SupiDetail addToCart={addToCart} sup={sup} />} />
 
             <Route path='/zakiska' element={<Zakiska addToCart={addToCart} setZaks={setZaks} />} />
-            {/* <Route path='/zakiska/:id' element={<ZakiskaDetail addToCart={addToCart} zaks={zaks} zakus={zakus} />} /> */}
+            <Route path='/zakiska/:id' element={<ZakiskaDetail addToCart={addToCart} zaks={zaks} />} />
 
             {/* <Route path='/salat' element={<Salat addToCart={addToCart} setAlivya={setAlivya} salat={salat} />} /> */}
             {/* <Route path='/salat/:id' element={<SalatDetail alivya={alivya} addToCart={addToCart} salat={salat} />} /> */}
