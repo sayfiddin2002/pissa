@@ -1,34 +1,34 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import { salat } from '../../data'
 
-function ZakiskaDetail(props) {
+function Salat(props) {
     return (
-        <div className="detailed">
-            <div className="detail">
-                <div className="container">
-                    <div className="card">
-                        <img src={props.zaks.img} alt="" />
-                        <div className='zabt'>
-                            <div className='wrapper'>
-                                <div className='item'>
-                                    <p>{props.zaks.name}</p>
-                                    <p>{props.zaks.description}</p>
+        <div className='pas-foot'>
+            <h1>Салаты</h1>
+            <div className="container">
+                {salat.map(sat => {
+                    return (
+                        <div data-aos="fade-up" className="card" key={sat.id}>
+                            <NavLink to={`/salat/${sat.id}`}>
+                                <div onClick={()=> props.setAlivya(sat)} className="image">
+                                    <img src={sat.img} alt="Error" />
                                 </div>
-                                <div className='time'>
-                                    <Link to='/zakiska'>
-                                        <span className='times'>&times;</span>
-                                    </Link>
+                            </NavLink>
+                            <div className="card-foter">
+                                <h3>{sat.name.slice(0, 20)}...</h3>
+                                <p>{sat.description.slice(0, 60)}...</p>
+                                <div className="pas-footer">
+                                    <p>{sat.price} ₽</p>
+                                    <button onClick={() => props.addToCart(sat)}>Купить</button>
                                 </div>
                             </div>
-                            <Link to='/zakiska'>
-                                <button className='clic' onClick={() => props.addToCart(props.zaks)}>Добавить в корзину {props.zaks.price} ₽</button>
-                            </Link>
                         </div>
-                    </div>
-                </div>
+                    )
+                })}
             </div>
         </div>
     )
 }
 
-export default ZakiskaDetail
+export default Salat

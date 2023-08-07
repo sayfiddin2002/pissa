@@ -30,6 +30,7 @@ import Supi from './pages/supi/Supi.jsx';
 import SupiDetail from './pages/supi/SupiDetail';
 import Zakiska from './pages/zakuski/Zakuski';
 import ZakiskaDetail from './pages/zakuski/ZakuskiDetail';
+import Salat from './pages/salat/Salat';
 // import OpenNovinki from './Components/OpenNovinki';
 
 
@@ -149,7 +150,7 @@ function App() {
             <Route path='/zakiska' element={<Zakiska addToCart={addToCart} setZaks={setZaks} />} />
             <Route path='/zakiska/:id' element={<ZakiskaDetail addToCart={addToCart} zaks={zaks} />} />
 
-            {/* <Route path='/salat' element={<Salat addToCart={addToCart} setAlivya={setAlivya} salat={salat} />} /> */}
+            <Route path='/salat' element={<Salat addToCart={addToCart} setAlivya={setAlivya}  />} />
             {/* <Route path='/salat/:id' element={<SalatDetail alivya={alivya} addToCart={addToCart} salat={salat} />} /> */}
 
             {/* <Route path='/suv' element={<Napitki addToCart={addToCart} suv={suv} setNapitki={setNapitki} />} /> */}
