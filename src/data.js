@@ -59,12 +59,6 @@ import pasta15 from './img/pasta15.jpeg';
 import pasta16 from './img/pasta16.png';
 
 
-
-
-import pitsa5 from './img/pitsa5.jpeg';
-import pitsa6 from './img/pitsa6.jpeg';
-import pitsa7 from './img/pitsa7.jpeg';
-import pitsa8 from './img/pitsa8.jpeg';
 import pitsa9 from './img/pitsa9.jpg';
 import pitsa10 from './img/pitsa10.jpg';
 import pitsa11 from './img/pitsa11.jpg';
