@@ -613,16 +613,15 @@
 .brot .foter-item .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 @media (max-width: 870px) {
   .brot .foter-item .container {
     grid-template-columns: 1fr;
   }
 }
-@media (max-width: 1050px) {
-  .brot .foter-item .container .left {
-    width: 100%;
-  }
+.brot .foter-item .container .left {
+  width: 100%;
 }
 .brot .foter-item .container .left img {
   padding: 0 0 50px 0;
@@ -672,11 +671,6 @@
   align-items: center;
   justify-content: space-between;
 }
-@media (max-width: 1050px) {
-  .brot .foter-item .container .left #body #insta {
-    margin-right: 40px;
-  }
-}
 @media (max-width: 870px) {
   .brot .foter-item .container .left #body #insta {
     margin-right: 0;
@@ -699,6 +693,7 @@
   font-size: 21px;
 }
 .brot .foter-item .container .right {
+  width: 100%;
   margin-left: 20px;
 }
 @media (max-width: 1050px) {
@@ -751,14 +746,14 @@
   }
 }
 .brot .foter-item .container .right .right_footer #sakkiz {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   color: #F7D22D;
 }
 @media (max-width: 450px) {
   .brot .foter-item .container .right .right_footer #sakkiz {
     margin-bottom: 10px;
-    font-size: 25px !important;
+    font-size: 20px !important;
   }
 }
 @media (max-width: 1050px) {

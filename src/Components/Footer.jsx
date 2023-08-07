@@ -35,12 +35,10 @@ function Footer() {
                                 <a href="https://t.me/sayfiddin2002" target='_blank'>Telegram</a>
                                 <a href="tel:+998941055799">Вконтакте</a>
                             </div>
-                            {/* <div id="vkon">
-                                <p>Москва ул. Проспект</p>
-                                <p>Вернадского 86В ( Парк Фудхол)</p>
-                            </div> */}
                         </div>
                     </div>
+
+                    
                     <div className="right">
                         <p className='ostalas'>ОСТАЛИСЬ ВОПРОСЫ? А МЫ ВСЕГДА НА СВЯЗИ:</p>
                         <div className='virtual-wrap'>
@@ -65,7 +63,7 @@ function Footer() {
                             <button id='but' onClick={registr}>Написать нам</button>
                         </div>
                         <div className='right_footer'>
-                            <p id='sakkiz'>8 916 234 06 58</p>
+                            <p id='sakkiz'>+998 94 105 57 99</p>
                             <button id='zakasss' onClick={registr}>Заказать звонок</button>
                         </div>
                     </div>

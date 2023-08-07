@@ -635,6 +635,8 @@
 .brot {
     position: relative;
     padding: 30px 10px 0 10px;
+    // max-width: 1130px;x  
+
 
     .foter-item {
         @media(max-width: 1120px) {
@@ -648,14 +650,15 @@
         .container {
             display: grid;
             grid-template-columns: 1fr 1fr;
+            gap: 20px;
 
             @media(max-width: 870px) {
                 grid-template-columns: 1fr;
             }
 
             .left {
+                width: 100%;
                 @media(max-width: 1050px) {
-                    width: 100%;
                 }
 
                 img {
@@ -707,7 +710,7 @@
                         align-items: center;
                         justify-content: space-between;
                         @media(max-width: 1050px) {
-                            margin-right: 40px;
+                            // margin-right: 40px;
                         }
                         @media(max-width: 870px) {
                             margin-right: 0;
@@ -738,6 +741,7 @@
             }
 
             .right {
+                width: 100%;
                 margin-left: 20px;
 
                 @media(max-width: 1050px) {
@@ -789,12 +793,12 @@
                     }
 
                     #sakkiz {
-                        font-size: 30px;
+                        font-size: 25px;
                         font-weight: 700;
                         color: #F7D22D;
                         @media(max-width: 450px) {
                             margin-bottom: 10px;
-                            font-size: 25px !important;
+                            font-size: 20px !important;
                         }
 
                         @media(max-width: 1050px) {

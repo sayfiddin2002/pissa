@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import logoo from '../img/logo2.png';
-import img from '../img/img.png';
 import { Link, NavLink } from 'react-router-dom';
 import { useRef } from 'react';
 import { useState } from 'react';
@@ -75,11 +74,15 @@ function Navbar(props) {
             <div className='container'>
                 <div className='nav'>
                     <div className='c-nav'>
-                        <div><img src={logoo} alt="Logo img" /></div>
+                        <div>
+                            <Link to='/'>
+                                <img src={logoo} alt="Logo img" />
+                            </Link>
+                        </div>
                         <div className='logo'>
                             <div className='zakaz'>
                                 <button className='bnt' onClick={registr}>Заказать звонок</button>
-                                <p>8 916 234 06 58</p>
+                                <p>+998 94 105 57 99</p>
                             </div>
                         </div>
 
@@ -162,7 +165,7 @@ function Navbar(props) {
 
                                         : <div className='no_date'>
                                             <p>No results</p>
-                                         </div>
+                                        </div>
                                     }
 
                                     {props.orders.length !== 0
