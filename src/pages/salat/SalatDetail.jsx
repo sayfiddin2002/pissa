@@ -15,7 +15,7 @@ function SalatDetail(props) {
                                     <p>{props.alivya?.description}</p>
                                 </div>
                                 <div className='time'>
-                                    <Link to='/salat'>
+                                    <Link to='/salat'  className='close_pitsadetail'>
                                         <span className='times'>&times;</span>
                                     </Link>
                                 </div>
