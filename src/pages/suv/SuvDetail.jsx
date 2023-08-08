@@ -15,7 +15,7 @@ function NapitkiDetail(props) {
                                     <p>{props.napitki.description}</p>
                                 </div>
                                 <div className='time'>
-                                    <Link to='/suv'>
+                                    <Link to='/suv' className='close_pitsadetail'>
                                         <span className='times'>&times;</span>
                                     </Link>
                                 </div>
