@@ -80,11 +80,11 @@
 
                         p {
                             color: #F7D22D;
-                            font-size: 30px;
+                            font-size: 25px;
                             font-weight: 700;
 
                             @media(max-width: 1110px) {
-                                font-size: 25px;
+                                font-size: 20px;
                             }
                         }
                     }
@@ -665,7 +665,7 @@
                     padding: 0 0 50px 0;
 
                     @media(max-width: 1050px) {
-                        padding: 0;
+                        // padding: 0;
                     }
                 }
 
@@ -753,7 +753,7 @@
                     padding: 25px 0 80px 0;
 
                     @media(max-width: 1050px) {
-                        padding: 50px 0 20px 0;
+                        // padding: 50px 0 20px 0;
                     }
 
                     @media(max-width:500px) {

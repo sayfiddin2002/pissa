@@ -84,12 +84,12 @@
 }
 .big .container .nav .c-nav .logo .zakaz p {
   color: #F7D22D;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
 }
 @media (max-width: 1110px) {
   .big .container .nav .c-nav .logo .zakaz p {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 .big .container .nav .c-nav .bi-list {
@@ -626,11 +626,6 @@
 .brot .foter-item .container .left img {
   padding: 0 0 50px 0;
 }
-@media (max-width: 1050px) {
-  .brot .foter-item .container .left img {
-    padding: 0;
-  }
-}
 .brot .foter-item .container .left .item {
   justify-content: space-between;
 }
@@ -697,11 +692,6 @@
   font-size: 18px;
   font-weight: 700;
   padding: 25px 0 80px 0;
-}
-@media (max-width: 1050px) {
-  .brot .foter-item .container .right .ostalas {
-    padding: 50px 0 20px 0;
-  }
 }
 @media (max-width: 500px) {
   .brot .foter-item .container .right .ostalas {
