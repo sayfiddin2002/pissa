@@ -33,6 +33,7 @@ import ZakiskaDetail from './pages/zakuski/ZakuskiDetail';
 import Salat from './pages/salat/Salat';
 import SalatDetail from './pages/salat/SalatDetail';
 import Suv from './pages/suv/Suv';
+import SuvDetail from './pages/suv/SuvDetail';
 // import OpenNovinki from './Components/OpenNovinki';
 
 
@@ -156,7 +157,7 @@ function App() {
             <Route path='/salat/:id' element={<SalatDetail alivya={alivya} addToCart={addToCart} />} />
 
             <Route path='/suv' element={<Suv addToCart={addToCart} setNapitki={setNapitki} />} />
-            {/* <Route path='/suv/:id' element={<NapitkiDetail addToCart={addToCart} suv={suv} napitki={napitki} />} /> */}
+            <Route path='/suv/:id' element={<SuvDetail addToCart={addToCart} napitki={napitki} />} />
 
             {/* <Route path='/kontact' element={<Kontact />} /> */}
             {/* <Route path='/card' element={<Card orders={orders} deleteOrderItem={deleteOrderItem} count={count} />} /> */}
