@@ -34,7 +34,7 @@ import Salat from './pages/salat/Salat';
 import SalatDetail from './pages/salat/SalatDetail';
 import Suv from './pages/suv/Suv';
 import SuvDetail from './pages/suv/SuvDetail';
-import Kontact from './pages/Kontact/Kontact';
+import Kontact from './pages/kontact/Kontact';
 // import OpenNovinki from './Components/OpenNovinki';
 
 
