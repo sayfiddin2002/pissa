@@ -38,28 +38,42 @@ function Footer() {
                         </div>
                     </div>
 
-                    
+
                     <div className="right">
                         <p className='ostalas'>ОСТАЛИСЬ ВОПРОСЫ? А МЫ ВСЕГДА НА СВЯЗИ:</p>
                         <div className='virtual-wrap'>
-                            <div className="vwrap">
-                                <img src={viber} alt="viber logo img" />
-                            </div>
-                            <div className="vwrap">
-                                <img src={simple} alt="simple logo img" />
-                            </div>
-                            <div className="vwrap">
-                                <img src={twitter} alt="twitter logo img" />
-                            </div>
-                            <div className="vwrap">
-                                <img src={telegram} alt="telegram logo img" />
-                            </div>
-                            <div className="vwrap">
-                                <img src={facebook} alt="facebook logo img" />
-                            </div>
-                            <div className="vwrap">
-                                <img src={jira} alt="jira logo img" />
-                            </div>
+                            <a href="#">
+                                <div className="vwrap">
+                                    <img src={viber} alt="viber logo img" />
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div className="vwrap">
+                                    <img src={simple} alt="simple logo img" />
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div className="vwrap">
+                                    <img src={twitter} alt="twitter logo img" />
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div className="vwrap">
+                                    <img src={telegram} alt="telegram logo img" />
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div className="vwrap">
+                                    <img src={facebook} alt="facebook logo img" />
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div className="vwrap">
+                                    <img src={jira} alt="jira logo img" />
+                                </div>
+                            </a>
                             <button id='but' onClick={registr}>Написать нам</button>
                         </div>
                         <div className='right_footer'>
