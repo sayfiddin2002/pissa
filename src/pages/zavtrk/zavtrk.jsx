@@ -1,6 +1,4 @@
-import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
-import Navbar from '../../Components/Navbar';
 import { zavtrks } from '../../data';
 
 

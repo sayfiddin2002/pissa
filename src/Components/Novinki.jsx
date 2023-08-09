@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import Swiper from '../Components/Swiper/Swiper';
 import {novinki, pitsa} from '../data.js';
