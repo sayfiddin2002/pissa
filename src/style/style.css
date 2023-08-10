@@ -802,7 +802,7 @@
 @media (max-width: 650px) {
   .brot .clow #div .srov {
     width: 350px;
-    height: 250px;
+    height: auto;
     padding: 15px;
   }
 }
@@ -832,6 +832,11 @@
   justify-content: space-between;
   margin-top: 20px;
 }
+@media (max-width: 450px) {
+  .brot .clow #div .srov .inp {
+    flex-direction: column;
+  }
+}
 .brot .clow #div .srov .inp p {
   margin-right: 30px;
   font-size: 20px;
@@ -839,6 +844,12 @@
 @media (max-width: 650px) {
   .brot .clow #div .srov .inp p {
     font-size: 12px;
+  }
+}
+@media (max-width: 450px) {
+  .brot .clow #div .srov .inp p {
+    margin-bottom: 10px;
+    margin-right: 0;
   }
 }
 .brot .clow #div .srov .inp input {
@@ -856,6 +867,11 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 60px;
+}
+@media (max-width: 650px) {
+  .brot .clow #div .srov .clow-footer {
+    padding-top: 40px;
+  }
 }
 @media (max-width: 450px) {
   .brot .clow #div .srov .clow-footer {
@@ -887,6 +903,13 @@
   .brot .clow #div .srov .clow-footer p {
     padding-left: 20px;
     font-size: 11px;
+  }
+}
+@media (max-width: 450px) {
+  .brot .clow #div .srov .clow-footer p {
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 10px;
   }
 }
 
