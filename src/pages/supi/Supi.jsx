@@ -16,7 +16,7 @@ function Supi(props) {
                                 </div>
                             </NavLink>
                             <div className="card-foter">
-                                <h3>{s.name.slice(0, 20)}...</h3>
+                                <h2>{s.name.slice(0, 20)}...</h2>
                                 <p>{s.description.slice(0, 60)}...</p>
                                 <div className="pas-footer">
                                     <p>{s.price} ₽</p>

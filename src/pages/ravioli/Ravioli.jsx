@@ -16,7 +16,7 @@ function Ravioli(props) {
                 </div>
               </NavLink>
               <div className="card-foter">
-                <h3>{ravi.name.slice(0, 20)}...</h3>
+                <h2>{ravi.name.slice(0, 20)}...</h2>
                 <p>{ravi.description.slice(0, 60)}...</p>
                 <div className="pas-footer">
                   <p>{ravi.price} ₽</p>

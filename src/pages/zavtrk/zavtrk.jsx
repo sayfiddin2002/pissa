@@ -17,7 +17,7 @@ function Zavtrk(props) {
                                 </div>
                             </NavLink>
                             <div className="card-foter">
-                                <h3>{zavtrk.name.slice(0, 20)}...</h3>
+                                <h2>{zavtrk.name.slice(0, 20)}...</h2>
                                 <p>{zavtrk.description.slice(0, 60)}...</p>
                                 <div className="pas-footer">
                                     <p>{zavtrk.price} ₽</p>

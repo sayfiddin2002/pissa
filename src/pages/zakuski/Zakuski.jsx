@@ -16,7 +16,7 @@ function Zakiska(props) {
                                 </div>
                             </NavLink>
                             <div className='card-foter'>
-                                <h3>{zak.name.slice(0, 20)}..</h3>
+                                <h2>{zak.name.slice(0, 20)}..</h2>
                                 <p>{zak.description.slice(0, 60)}...</p>
                                 <div className="pas-footer">
                                     <p>{zak.price} ₽</p>

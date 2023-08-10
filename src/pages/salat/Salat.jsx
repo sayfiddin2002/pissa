@@ -16,7 +16,7 @@ function Salat(props) {
                                 </div>
                             </NavLink>
                             <div className="card-foter">
-                                <h3>{sat.name.slice(0, 20)}...</h3>
+                                <h2>{sat.name.slice(0, 20)}...</h2>
                                 <p>{sat.description.slice(0, 60)}...</p>
                                 <div className="pas-footer">
                                     <p>{sat.price} ₽</p>
