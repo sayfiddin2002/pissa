@@ -857,9 +857,10 @@
   justify-content: space-between;
   padding-top: 60px;
 }
-@media (max-width: 650px) {
+@media (max-width: 450px) {
   .brot .clow #div .srov .clow-footer {
     padding-top: 30px;
+    flex-direction: column-reverse;
   }
 }
 .brot .clow #div .srov .clow-footer button {

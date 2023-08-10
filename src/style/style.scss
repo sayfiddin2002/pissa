@@ -485,6 +485,8 @@
                                 justify-content: space-between;
                                 margin-top: 20px;
 
+                               
+
                                 p {
                                     margin-right: 30px;
                                     font-size: 20px;
@@ -635,8 +637,6 @@
 .brot {
     position: relative;
     padding: 30px 10px 0 10px;
-    // max-width: 1130px;x  
-
 
     .foter-item {
         @media(max-width: 1120px) {
@@ -663,14 +663,9 @@
 
                 img {
                     padding: 0 0 50px 0;
-
-                    @media(max-width: 1050px) {
-                        // padding: 0;
-                    }
                 }
 
                 .item {
-                    // display: flex;
                     justify-content: space-between;
 
                     @media(max-width: 1050px) {
@@ -695,7 +690,6 @@
                 }
 
                 #body {
-                    // width: 630px;
 
                     @media(max-width: 1050px) {
                         width: 100%;
@@ -708,9 +702,7 @@
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-                        @media(max-width: 1050px) {
-                            // margin-right: 40px;
-                        }
+                        
                         @media(max-width: 870px) {
                             margin-right: 0;
                         }
@@ -740,8 +732,6 @@
             }
 
             .right {
-                // width: 100%;
-                // margin-left: 20px;
 
                 @media(max-width: 1050px) {
                     margin-left: 0;
@@ -751,10 +741,6 @@
                     font-size: 18px;
                     font-weight: 700;
                     padding: 25px 0 80px 0;
-
-                    @media(max-width: 1050px) {
-                        // padding: 50px 0 20px 0;
-                    }
 
                     @media(max-width:500px) {
                         font-size: 16px;
@@ -924,8 +910,9 @@
                     justify-content: space-between;
                     padding-top: 60px;
 
-                    @media(max-width:650px) {
+                    @media(max-width:450px) {
                         padding-top: 30px;
+                        flex-direction: column-reverse;
                     }
 
                     button {
