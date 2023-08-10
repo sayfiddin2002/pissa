@@ -23,8 +23,8 @@ function Novinki(props) {
         <div className="wrapper">
           {novinki.map(novi => {
             return (
-              <NavLink className="navlink" key={novi.id} to={`/novinki/${novi.id}`}>
-                <div onClick={() => props.setDetail(novi)} className="card" >
+              <NavLink  className="navlink" key={novi.id} to={`/novinki/${novi.id}`}>
+                <div  onClick={() => props.setDetail(novi)} className="card" >
                   <img src={novi.img} alt="Error" />
                   <div className="item">
                     <h2>{novi.name}</h2>
@@ -42,7 +42,7 @@ function Novinki(props) {
         <div className='container'>
           {pitsa.map(p => {
             return (
-              <div className="card" key={p.id}>
+              <div data-aos="fade-up" className="card" key={p.id}>
                 <NavLink to={`/pitsa/${p.id}`}>
                   <div className='image' onClick={() => props.setPissa(p)}>
                     <img src={p.img} alt="Error" />
