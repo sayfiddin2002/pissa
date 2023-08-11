@@ -49,7 +49,7 @@ function Novinki(props) {
                   </div>
                 </NavLink>
                 <div className='card-foter'>
-                  <h3>{p.name.slice(0, 20)}...</h3>
+                  <h2>{p.name.slice(0, 20)}...</h2>
                   <p>{p.description.slice(0, 60)}...</p>
                   <div className='pas-footer'>
                     <p>{p.price} ₽</p>

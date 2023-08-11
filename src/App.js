@@ -11,11 +11,7 @@ import {
 } from 'react-router-dom';
 
 
-// import Zavtrk from './pages/zavtrk/Zavtrk';
-
-
 import ZavtrkDetail from './pages/zavtrk/ZavtrkDetail';
-// import Footer from './Components/Footer.jsx';
 import Novinki from './Components/Novinki';
 import Footer from './Components/Footer';
 import Zavtrk from './pages/zavtrk/Zavtrk';
@@ -35,29 +31,6 @@ import SalatDetail from './pages/salat/SalatDetail';
 import Suv from './pages/suv/Suv';
 import SuvDetail from './pages/suv/SuvDetail';
 import Kontact from './pages/kontact/Kontact';
-// import OpenNovinki from './Components/OpenNovinki';
-
-
-
-// import Pitsa from './pages/pitsa/Pitsa';
-
-
-// import Pasta from './pages/pasta/Pasta';
-
-// import Ravioli from './pages/ravioli/Ravioli';
-
-
-// import Supi from './pages/supi/Supi';
-
-
-// import Zakiska from './pages/Горячие закуски/Zakiska';
-
-
-// import Salat from './pages/salat/Salat';
-
-
-
-
 
 function App() {
 
@@ -116,10 +89,6 @@ function App() {
     setOrders(orders.filter(o => o.id !== order.id));
     setCount(count - order.price)
   }
-
-
- 
-
 
   return (
 
