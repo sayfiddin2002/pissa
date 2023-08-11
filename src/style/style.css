@@ -1692,7 +1692,7 @@
 }
 @media (max-width: 500px) {
   .v_korzinu .cozinu {
-    padding: 0 20px 0 20px;
+    padding: 0;
   }
 }
 .v_korzinu .cozinu .text_corzina {
@@ -1704,6 +1704,7 @@
   .v_korzinu .cozinu .text_corzina {
     font-size: 2rem;
     margin: 20px 0 20px 0;
+    padding-left: 20px;
   }
 }
 .v_korzinu .cozinu .wrapper {
@@ -1871,6 +1872,11 @@
   .v_korzinu .cozinu .card-footer .footer_wrapper .footer-header .summa {
     width: 100%;
     margin: 10px 0;
+  }
+}
+@media (max-width: 500px) {
+  .v_korzinu .cozinu .card-footer .footer_wrapper .footer-header .summa {
+    padding: 0 20px;
   }
 }
 .v_korzinu .cozinu .card-footer .footer_wrapper .footer-header .summa p:first-child {
