@@ -226,6 +226,7 @@
                         z-index: 999999999;
                         box-shadow: 0 0 10px 0 rgb(94, 93, 93);
                         border-radius: 8px;
+                        padding-bottom: 90px;
 
                         @media(max-width:500px) {
                             width: 280px;
@@ -373,12 +374,12 @@
                             z-index: 9999999;
                             position: fixed;
                             top: 350px;
-                            width: 300px;
+                            width: 320px;
                             padding: 0 5px;
                             background-color: rgb(228, 228, 228);
 
                             @media(max-width:500px) {
-                                width: 250px;
+                                width: 280px;
                                 transform: translateY(7px);
                             }
 

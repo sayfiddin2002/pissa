@@ -47,7 +47,7 @@ function Card(props) {
               <div key={order.index}>
                 <hr />
                 <div className="card">
-                  {getTotalPrice.push(props.orders[index])}
+                  {/* {getTotalPrice.push(props.orders[index])} */}
                   <div className="card_header">
                     <img src={order.img} alt="Error" />
                     <div className="text">

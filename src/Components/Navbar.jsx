@@ -134,7 +134,7 @@ function Navbar(props) {
                                                 <div key={order.id}>
                                                     <hr />
                                                     <div className="korzina" >
-                                                        {getTotalPrice.push(props.orders[index])}
+                                                        {/* {getTotalPrice.push(props.orders[index])} */}
                                                         <img src={order.img} alt="Error" />
                                                         <div className="tittle">
                                                             <div className='title_body'>
