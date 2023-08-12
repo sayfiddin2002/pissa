@@ -2503,6 +2503,7 @@
   border-radius: 10px;
   font-weight: 700;
   font-size: 1.2rem;
+  border: 2px solid transparent;
 }
 .dastavke .vremya .wrap .container .card div:hover {
   border: 2px solid #F7D22D;
