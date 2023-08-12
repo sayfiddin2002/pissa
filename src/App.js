@@ -33,6 +33,7 @@ import SuvDetail from './pages/suv/SuvDetail';
 import Kontact from './pages/kontact/Kontact';
 import Card from './Components/Card';
 import Daastavka from './pages/dastavka/Dastafka';
+import Po_card from './pages/payment/Payment';
 
 function App() {
 
@@ -134,7 +135,7 @@ function App() {
             <Route path='/kontact' element={<Kontact />} />
             <Route path='/card' element={<Card orders={orders} deleteOrderItem={deleteOrderItem} count={count} />} />
             <Route path='/dastavka' element={<Daastavka />} />
-            {/* <Route path='/po_card' element={<Po_card orders={orders} />} /> */}
+            <Route path='/po_card' element={<Po_card orders={orders} />} />
 
           </Routes>
 
