@@ -673,6 +673,11 @@
   font-size: 20px;
   color: #696F7A;
 }
+@media (max-width: 400px) {
+  .brot .foter-item .container .left #body #insta a {
+    font-size: 17px;
+  }
+}
 .brot .foter-item .container .left #body #vkon {
   color: #696F7A;
 }

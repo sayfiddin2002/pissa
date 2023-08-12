@@ -707,11 +707,15 @@
                         @media(max-width: 870px) {
                             margin-right: 0;
                         }
+                        
 
                         a {
                             text-decoration: none;
                             font-size: 20px;
                             color: #696F7A;
+                            @media(max-width: 400px) {
+                            font-size: 17px;
+                            }
                         }
                     }
 
