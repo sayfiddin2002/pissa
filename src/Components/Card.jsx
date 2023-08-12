@@ -45,7 +45,7 @@ function Card(props) {
           {props.orders.map((order, index) => {
             return (
               <div key={order.index}>
-                <hr />
+                
                 <div className="card">
                   {/* {getTotalPrice.push(props.orders[index])} */}
                   <div className="card_header">
@@ -68,6 +68,7 @@ function Card(props) {
                     </div>
                   </div>
                 </div>
+                <hr />
               </div>
             )
           })}
