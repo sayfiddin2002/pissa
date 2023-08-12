@@ -2468,6 +2468,8 @@
                 #area {
                     font-size: 17px;
                     font-weight: 500;
+                    resize: none;
+                    width: 100%;
 
                     @media(max-width:800px) {
                         width: 100%;
