@@ -47,7 +47,6 @@ function Card(props) {
               <div key={order.index}>
                 
                 <div className="card">
-                  {/* {getTotalPrice.push(props.orders[index])} */}
                   <div className="card_header">
                     <img src={order.img} alt="Error" />
                     <div className="text">
@@ -56,7 +55,6 @@ function Card(props) {
                     </div>
                   </div>
                   <div className="card-body">
-                    {/* <p className='price'>{order.price}₽</p> */}
                     <p className='price'>{order.stock > 1 ? order.price * order.stock : order.price} ₽</p>
                     <div className='four'>
                       <div className='minus' onClick={() => order.stock >= 1 && setCount(order.stock--)}>-</div>

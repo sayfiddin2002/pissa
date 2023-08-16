@@ -1,7 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { zavtrks } from '../../data';
 
-
 function Zavtrk(props) {
     
     return (

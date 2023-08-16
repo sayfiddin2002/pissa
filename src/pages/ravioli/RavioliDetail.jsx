@@ -7,7 +7,7 @@ function Raviolidetail(props) {
       <div className="detail">
         <div className="container">
           <div className="card">
-            <img src={props.ravi?.img} alt="" />
+            <img src={props.ravi?.img} alt="ravi img" />
             <div className='zabt'>
               <div className='wrapper'>
                 <div className='item'>

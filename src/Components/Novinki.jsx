@@ -2,10 +2,6 @@ import { NavLink } from 'react-router-dom'
 import Swiper from '../Components/Swiper/Swiper';
 import {novinki, pitsa} from '../data.js';
 
-
-
-
-
 import oplata1 from '../img/oplata1.png';
 import oplata2 from '../img/oplata2.png';
 import oplata3 from '../img/oplata3.png';
@@ -18,6 +14,7 @@ function Novinki(props) {
     <div className='novinki'>
 
       <Swiper />
+      
       <div className="container">
         <h1>Новинки</h1>
         <div className="wrapper">

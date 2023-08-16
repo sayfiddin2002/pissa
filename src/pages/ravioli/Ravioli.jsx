@@ -12,7 +12,7 @@ function Ravioli(props) {
             <div data-aos="fade-up" className="card" key={ravi.id}>
               <NavLink to={`/ravioli/${ravi.id}`}>
                 <div onClick={()=> props.setRavi(ravi)} className="image">
-                  <img src={ravi.img} alt="Error" />
+                  <img src={ravi.img} alt="ravioli img" />
                 </div>
               </NavLink>
               <div className="card-foter">

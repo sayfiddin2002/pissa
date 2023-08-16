@@ -8,7 +8,6 @@ import telegram from '../img//telegram.png';
 import facebook from '../img/facebook.png';
 import jira from '../img/jira.png';
 
-
 function Footer() {
     const openRegistr = useRef();
 
@@ -37,7 +36,6 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-
 
                     <div className="right">
                         <p className='ostalas'>ОСТАЛИСЬ ВОПРОСЫ? А МЫ ВСЕГДА НА СВЯЗИ:</p>
@@ -84,7 +82,6 @@ function Footer() {
                 </div>
                 <p id='bar'>Fibo Pasta Bar Все права защищены © 2023</p>
             </div>
-
 
             <div ref={openRegistr} className="clow">
                 <div id='div'>

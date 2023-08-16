@@ -2,11 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 
 function Po_card(props) {
-    // const form = document.querySelector('#form');
-    // form.addEventListener('click', ()=> {
-
-    // })
-
+    
     const form = (e) => {
         e.preventDefault()
     }

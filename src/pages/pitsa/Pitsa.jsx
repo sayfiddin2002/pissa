@@ -1,9 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import { pitsa } from '../../data'
 
-
 function Pitsa(props) {
-
 
     return (
         <div className='pas-foot'>

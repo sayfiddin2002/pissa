@@ -7,7 +7,7 @@ function SalatDetail(props) {
             <div className="detail">
                 <div className="container">
                     <div className="card">
-                        <img src={props.alivya?.img} alt="" />
+                        <img src={props.alivya?.img} alt="alivya img" />
                         <div className='zabt'>
                             <div className='wrapper'>
                                 <div className='item'>

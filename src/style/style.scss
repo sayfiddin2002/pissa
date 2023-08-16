@@ -314,7 +314,6 @@
                                         font-size: 1.3rem;
                                         background-color: #696f7a2a;
                                         display: flex;
-                                        // grid-template-columns: 1fr 15px 1fr;
                                         width: 110px;
                                         justify-content: space-between;
                                         align-items: center !important;
@@ -486,7 +485,7 @@
                                 justify-content: space-between;
                                 margin-top: 20px;
 
-                               
+
 
                                 p {
                                     margin-right: 30px;
@@ -659,8 +658,8 @@
 
             .left {
                 width: 100%;
-                @media(max-width: 1050px) {
-                }
+
+                @media(max-width: 1050px) {}
 
                 img {
                     padding: 0 0 50px 0;
@@ -703,18 +702,19 @@
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-                        
+
                         @media(max-width: 870px) {
                             margin-right: 0;
                         }
-                        
+
 
                         a {
                             text-decoration: none;
                             font-size: 20px;
                             color: #696F7A;
+
                             @media(max-width: 400px) {
-                            font-size: 17px;
+                                font-size: 17px;
                             }
                         }
                     }
@@ -769,24 +769,56 @@
                         img:hover {
                             /* Start the shake animation and make the animation last for 0.5 seconds */
                             animation: shake 0.5s;
-                          
+
                             /* When the animation is finished, start again */
                             animation-iteration-count: 1;
-                          }
-                          
-                          @keyframes shake {
-                            0% { transform: translate(1px, 1px) rotate(0deg); }
-                            10% { transform: translate(-1px, -2px) rotate(-1deg); }
-                            20% { transform: translate(-3px, 0px) rotate(1deg); }
-                            30% { transform: translate(3px, 2px) rotate(0deg); }
-                            40% { transform: translate(1px, -1px) rotate(1deg); }
-                            50% { transform: translate(-1px, 2px) rotate(-1deg); }
-                            60% { transform: translate(-3px, 1px) rotate(0deg); }
-                            70% { transform: translate(3px, 1px) rotate(-1deg); }
-                            80% { transform: translate(-1px, -1px) rotate(1deg); }
-                            90% { transform: translate(1px, 2px) rotate(0deg); }
-                            100% { transform: translate(1px, -2px) rotate(-1deg); }
-                          }
+                        }
+
+                        @keyframes shake {
+                            0% {
+                                transform: translate(1px, 1px) rotate(0deg);
+                            }
+
+                            10% {
+                                transform: translate(-1px, -2px) rotate(-1deg);
+                            }
+
+                            20% {
+                                transform: translate(-3px, 0px) rotate(1deg);
+                            }
+
+                            30% {
+                                transform: translate(3px, 2px) rotate(0deg);
+                            }
+
+                            40% {
+                                transform: translate(1px, -1px) rotate(1deg);
+                            }
+
+                            50% {
+                                transform: translate(-1px, 2px) rotate(-1deg);
+                            }
+
+                            60% {
+                                transform: translate(-3px, 1px) rotate(0deg);
+                            }
+
+                            70% {
+                                transform: translate(3px, 1px) rotate(-1deg);
+                            }
+
+                            80% {
+                                transform: translate(-1px, -1px) rotate(1deg);
+                            }
+
+                            90% {
+                                transform: translate(1px, 2px) rotate(0deg);
+                            }
+
+                            100% {
+                                transform: translate(1px, -2px) rotate(-1deg);
+                            }
+                        }
                     }
 
                     #but {
@@ -801,6 +833,7 @@
                     align-items: center;
                     justify-content: space-between;
                     margin-top: 20px;
+
                     @media(max-width: 450px) {
                         flex-direction: column;
                     }
@@ -809,6 +842,7 @@
                         font-size: 25px;
                         font-weight: 700;
                         color: #F7D22D;
+
                         @media(max-width: 450px) {
                             margin-bottom: 10px;
                             font-size: 20px !important;
@@ -910,6 +944,7 @@
                     align-items: center;
                     justify-content: space-between;
                     margin-top: 20px;
+
                     @media(max-width:450px) {
                         flex-direction: column;
                     }
@@ -921,6 +956,7 @@
                         @media(max-width:650px) {
                             font-size: 12px;
                         }
+
                         @media(max-width:450px) {
                             margin-bottom: 10px;
                             margin-right: 0;
@@ -967,9 +1003,7 @@
                             padding: 8px 20px;
                         }
 
-                        @media(max-width:450px) {
-                            
-                        }
+                        @media(max-width:450px) {}
                     }
 
                     p {
@@ -1407,7 +1441,6 @@
                                         transform: translateX(-30px);
                                     }
                                 }
-
                             }
                         }
                     }
@@ -2496,7 +2529,6 @@
                 }
             }
         }
-
     }
 
     .vremya {

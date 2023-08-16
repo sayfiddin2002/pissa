@@ -55,7 +55,6 @@ function Daastavka() {
         setText(title.text)
     }
 
-    const [becor, setBecor] = useState(false);
     const imya = document.querySelector('#imya');
     const telef = document.querySelector('#telef');
     const black = document.querySelector('.black');

@@ -56,7 +56,6 @@ function Navbar(props) {
 
     let getTotalPrice = [];
 
-
     let total = 0;
 
     props.orders.forEach(i => {
@@ -67,7 +66,6 @@ function Navbar(props) {
             total += i.price
         }
     });
-
 
     return (
         <div className='big'>
@@ -123,7 +121,6 @@ function Navbar(props) {
                             </li>
                         </ul>
 
-
                         <div className='pols'>
                             <button className='pols_btn' onClick={openOrder}>Корзина | {props.orders.length}</button>
                             {oren
@@ -134,7 +131,6 @@ function Navbar(props) {
                                                 <div key={order.id}>
                                                     <hr />
                                                     <div className="korzina" >
-                                                        {/* {getTotalPrice.push(props.orders[index])} */}
                                                         <img src={order.img} alt="Error" />
                                                         <div className="tittle">
                                                             <div className='title_body'>

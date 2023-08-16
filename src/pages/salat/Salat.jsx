@@ -12,7 +12,7 @@ function Salat(props) {
                         <div data-aos="fade-up" className="card" key={sat.id}>
                             <NavLink to={`/salat/${sat.id}`}>
                                 <div onClick={()=> props.setAlivya(sat)} className="image">
-                                    <img src={sat.img} alt="Error" />
+                                    <img src={sat.img} alt="alivya img" />
                                 </div>
                             </NavLink>
                             <div className="card-foter">
