@@ -18,6 +18,7 @@ function Novinki(props) {
       <div className="container">
         <h1>Новинки</h1>
         <div className="wrapper">
+
           {novinki.map(novi => {
             return (
               <NavLink  className="navlink" key={novi.id} to={`/novinki/${novi.id}`}>
