@@ -57,9 +57,9 @@ function App() {
     for (let o of orders) {
       if (o.id === obj.id) {
         isDefined = true;
-        toast.error('🦄 Wow so easy!', {
+        toast.error('этот продукт доступен!', {
           position: "bottom-right",
-          autoClose: 5000,
+          autoClose: 2000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
@@ -72,12 +72,32 @@ function App() {
     if (!isDefined) {
       setCount(count + obj.price)
       setOrders([...orders, obj])
+      toast.success('добавлено в корзину!', {
+        position: "bottom-right",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
     }
   }
 
   const deleteOrderItem = (order) => {
     setOrders(orders.filter(o => o.id !== order.id));
     setCount(count - order.price)
+    toast.success('товар удален из корзины!', {
+      position: "bottom-right",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
   }
 
 
