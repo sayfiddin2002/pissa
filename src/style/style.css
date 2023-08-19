@@ -1040,6 +1040,11 @@
   margin: 10px 0;
   list-style: none !important;
 }
+@media (max-width: 400px) {
+  .novinki .container .wrapper .navlink .card {
+    width: 220px;
+  }
+}
 @media (max-width: 1050px) {
   .novinki .container .wrapper .navlink .card {
     margin: 10px 10px 10px 0;
@@ -1050,6 +1055,11 @@
   height: 55px;
   margin-right: 20px;
 }
+@media (max-width: 400px) {
+  .novinki .container .wrapper .navlink .card img {
+    margin-right: 10px;
+  }
+}
 .novinki .container .wrapper .navlink .card .novprice {
   color: #F7D22D;
 }
@@ -1057,6 +1067,11 @@
   font-size: 1.1rem;
   font-weight: 700;
   color: black;
+}
+@media (max-width: 400px) {
+  .novinki .container .wrapper .navlink .card h2 {
+    font-size: 1rem;
+  }
 }
 .novinki .opplata {
   margin: 20px 0;
