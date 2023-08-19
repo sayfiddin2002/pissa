@@ -19,6 +19,10 @@
   z-index: 77777;
 }
 
+.swip {
+  margin-top: 20px;
+}
+
 .big {
   position: relative;
 }

@@ -88,7 +88,7 @@ function App() {
   const deleteOrderItem = (order) => {
     setOrders(orders.filter(o => o.id !== order.id));
     setCount(count - order.price)
-    toast.success('товар удален из корзины!', {
+    toast.info('товар удален из корзины!', {
       position: "bottom-right",
       autoClose: 2000,
       hideProgressBar: false,
@@ -112,8 +112,6 @@ function App() {
       <Routes>
         <Route path='/' element={<Novinki addToCart={addToCart} setDetail={setDetail} setPissa={setPissa} />} />
         <Route path='/novinki/:id' element={<OpenNovinki addToCart={addToCart} detail={detail} />} />
-        {/* <Route path='/pitsa/:id' element={<OpenPitsa addToCart={addToCart} pissa={pissa} pitsa={pitsa} />} /> */}
-
 
         <Route path='/zavtrks' element={<Zavtrk addToCart={addToCart} setDetailed={setDetailed} />} />
         <Route path='/zavtrks/:id' element={<ZavtrkDetail addToCart={addToCart} detailed={detailed} />} />
